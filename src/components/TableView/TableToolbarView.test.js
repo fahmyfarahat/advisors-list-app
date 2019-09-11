@@ -4,7 +4,7 @@ import TableToolbarView from "./TableToolbarView";
 import toJson from "enzyme-to-json";
 
 describe("TableToolbarView - general ", () => {
-  it('should match Snapshot', () => {
+  it("should match Snapshot", () => {
     const props = {
       onChange: () => {},
       filters: {

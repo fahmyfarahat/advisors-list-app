@@ -26,7 +26,7 @@ function transformFilters(filterBy) {
 }
 
 export const getSorting = (order, orderBy) => {
-  return order === 'desc' ? (a, b) => desc(a, b, orderBy) : (a, b) => -desc(a, b, orderBy);
+  return order === "desc" ? (a, b) => desc(a, b, orderBy) : (a, b) => -desc(a, b, orderBy);
 };
 
 export const tableSort = (array, cmp) => {

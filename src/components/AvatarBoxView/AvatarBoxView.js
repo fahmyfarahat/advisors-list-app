@@ -1,13 +1,13 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import withStyles from '@material-ui/core/styles/withStyles';
+import React from "react";
+import PropTypes from "prop-types";
+import withStyles from "@material-ui/core/styles/withStyles";
 import {
   Grid,
   Badge, 
   Box,
   Avatar,
   Typography
-} from '@material-ui/core';
+} from "@material-ui/core";
 
 const OnlineBadgeStyles = withStyles(theme => ({
   badge: {
@@ -42,11 +42,11 @@ const AvatarBoxView = ({ src, name, status }) => (
     <Grid item>
       <Box>
         <OnlineBadgeStyles
-          invisible={status === 'offline' ? true : false}
+          invisible={status === "offline" ? true : false}
           overlap="circle"
           anchorOrigin={{
-            vertical: 'bottom',
-            horizontal: 'right',
+            vertical: "bottom",
+            horizontal: "right",
           }}
           variant="dot"
         >
@@ -61,7 +61,7 @@ const AvatarBoxView = ({ src, name, status }) => (
 );
 
 AvatarBoxView.propTypes = {
-  status: PropTypes.oneOf(['online', 'offline']).isRequired,
+  status: PropTypes.oneOf(["online", "offline"]).isRequired,
   src: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired
 };

@@ -4,7 +4,7 @@ import TableHeadView from "./TableHeadView";
 import toJson from "enzyme-to-json";
 
 describe("TableHeadView - general ", () => {
-  it('should match Snapshot', () => {
+  it("should match Snapshot", () => {
     const props = {
       onRequestSort: () => {},
       order: "asc",

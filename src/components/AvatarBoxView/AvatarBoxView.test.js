@@ -4,7 +4,7 @@ import AvatarBoxView from "./AvatarBoxView";
 import toJson from "enzyme-to-json";
 
 describe("AvatarBoxView - general ", () => {
-  it('should match Snapshot', () => {
+  it("should match Snapshot", () => {
     const props = {
       status: "online", 
       src: "url", 
