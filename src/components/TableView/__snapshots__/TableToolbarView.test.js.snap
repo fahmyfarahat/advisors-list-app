@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableToolbarView - general  should match Snapshot 1`] = `
+<WithStyles(ForwardRef(Toolbar))>
+  <div
+    className="makeStyles-title-3"
+  >
+    <WithStyles(ForwardRef(Typography))
+      id="tableTitle"
+      variant="h6"
+    >
+      Advisor list
+    </WithStyles(ForwardRef(Typography))>
+  </div>
+  <div
+    className="makeStyles-spacer-1"
+  />
+  <div
+    className="makeStyles-actions-2"
+  >
+    <WithStyles(Tooltip)
+      onClick={[Function]}
+      title="Filter list"
+    >
+      <WithStyles(ForwardRef(IconButton))
+        aria-label="filter list"
+      >
+        <FilterListIcon />
+      </WithStyles(ForwardRef(IconButton))>
+    </WithStyles(Tooltip)>
+    <WithStyles(ForwardRef(Drawer))
+      anchor="right"
+      onClose={[Function]}
+      open={false}
+    >
+      <div
+        className="makeStyles-list-4"
+        role="presentation"
+      >
+        <WithStyles(ForwardRef(FormControl))
+          className="makeStyles-formControl-5"
+          component="fieldset"
+          key="status"
+        >
+          <WithStyles(ForwardRef(FormLabel))
+            component="legend"
+          >
+            status
+          </WithStyles(ForwardRef(FormLabel))>
+          <WithStyles(ForwardRef(FormGroup))>
+            <WithStyles(ForwardRef(FormControlLabel))
+              control={
+                <ForwardRef(WithStyles)
+                  checked={false}
+                  color="primary"
+                  value="online"
+                />
+              }
+              key="online"
+              label="online"
+            />
+            <WithStyles(ForwardRef(FormControlLabel))
+              control={
+                <ForwardRef(WithStyles)
+                  checked={false}
+                  color="primary"
+                  value="offline"
+                />
+              }
+              key="offline"
+              label="offline"
+            />
+          </WithStyles(ForwardRef(FormGroup))>
+        </WithStyles(ForwardRef(FormControl))>
+        <WithStyles(ForwardRef(Button))
+          className="makeStyles-button-6"
+          onClick={[Function]}
+          variant="contained"
+        >
+          close
+        </WithStyles(ForwardRef(Button))>
+      </div>
+    </WithStyles(ForwardRef(Drawer))>
+  </div>
+</WithStyles(ForwardRef(Toolbar))>
+`;

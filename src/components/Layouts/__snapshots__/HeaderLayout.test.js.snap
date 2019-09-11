@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderLayout - general  should match Snapshot 1`] = `
+<WithStyles(ForwardRef(AppBar))
+  position="relative"
+>
+  <WithStyles(ForwardRef(Toolbar))>
+    <WithStyles(ForwardRef(Typography))
+      color="inherit"
+      noWrap={true}
+      variant="h6"
+    >
+      Advisors layout
+    </WithStyles(ForwardRef(Typography))>
+  </WithStyles(ForwardRef(Toolbar))>
+</WithStyles(ForwardRef(AppBar))>
+`;

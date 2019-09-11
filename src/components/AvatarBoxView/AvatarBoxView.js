@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import withStyles from '@material-ui/core/styles/withStyles';
 import {
   Grid,
   Badge, 
@@ -7,11 +8,10 @@ import {
   Avatar,
   Typography
 } from '@material-ui/core';
-import { withStyles } from '@material-ui/core/styles';
 
 const OnlineBadgeStyles = withStyles(theme => ({
   badge: {
-    backgroundColor: '#44b700',
+    backgroundColor: '#44b700',//TODO:: use theme colors
     boxShadow: `0 0 0 2px ${theme.palette.background.paper}`,
     '&::after': {
       position: 'absolute',
@@ -21,7 +21,7 @@ const OnlineBadgeStyles = withStyles(theme => ({
       height: '100%',
       borderRadius: '50%',
       animation: '$ripple 1.5s infinite ease-in-out',
-      border: '1px solid #44b700',
+      border: '1px solid #44b700',//TODO:: use theme colors
       content: '""',
     },
   },

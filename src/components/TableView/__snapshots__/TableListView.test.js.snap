@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableListView - general  should match Snapshot 1`] = `
+<WithStyles(ForwardRef(Paper))>
+  <TableToolbarView
+    filters={
+      Object {
+        "language": Object {
+          "english": false,
+          "german": false,
+          "italian": false,
+          "spanish": false,
+        },
+        "status": Object {
+          "offline": false,
+          "online": false,
+        },
+      }
+    }
+    onChange={[Function]}
+  />
+  <div>
+    <WithStyles(ForwardRef(Table))
+      size="medium"
+    >
+      <TableHeadView
+        onRequestSort={[Function]}
+        order="asc"
+        orderBy=""
+      />
+      <WithStyles(ForwardRef(TableBody)) />
+    </WithStyles(ForwardRef(Table))>
+  </div>
+</WithStyles(ForwardRef(Paper))>
+`;

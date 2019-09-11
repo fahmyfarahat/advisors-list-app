@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableHeadView - general  should match Snapshot 1`] = `
+<WithStyles(ForwardRef(TableHead))>
+  <WithStyles(ForwardRef(TableRow))>
+    <WithStyles(ForwardRef(TableCell))
+      align="left"
+      key="name"
+      sortDirection={false}
+    >
+      <WithStyles(ForwardRef(TableSortLabel))
+        active={false}
+        direction="asc"
+        onClick={[Function]}
+      >
+        Advisors
+      </WithStyles(ForwardRef(TableSortLabel))>
+    </WithStyles(ForwardRef(TableCell))>
+    <WithStyles(ForwardRef(TableCell))
+      align="right"
+      key="status"
+      sortDirection={false}
+    >
+      <WithStyles(ForwardRef(TableSortLabel))
+        active={false}
+        direction="asc"
+        onClick={[Function]}
+      >
+        Status
+      </WithStyles(ForwardRef(TableSortLabel))>
+    </WithStyles(ForwardRef(TableCell))>
+    <WithStyles(ForwardRef(TableCell))
+      align="left"
+      key="language"
+      sortDirection={false}
+    >
+      <WithStyles(ForwardRef(TableSortLabel))
+        active={false}
+        direction="asc"
+        onClick={[Function]}
+      >
+        Language
+      </WithStyles(ForwardRef(TableSortLabel))>
+    </WithStyles(ForwardRef(TableCell))>
+    <WithStyles(ForwardRef(TableCell))
+      align="left"
+      key="reviews"
+      sortDirection={false}
+    >
+      <WithStyles(ForwardRef(TableSortLabel))
+        active={false}
+        direction="asc"
+        onClick={[Function]}
+      >
+        Reviews
+      </WithStyles(ForwardRef(TableSortLabel))>
+    </WithStyles(ForwardRef(TableCell))>
+  </WithStyles(ForwardRef(TableRow))>
+</WithStyles(ForwardRef(TableHead))>
+`;

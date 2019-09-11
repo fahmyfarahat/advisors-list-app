@@ -1,7 +1,7 @@
 import React from 'react';
 import { AppBar, Toolbar, Typography } from '@material-ui/core';
 
-const Header = () => (
+const HeaderLayout = () => (
   <AppBar position="relative">
   <Toolbar>
     <Typography variant="h6" color="inherit" noWrap>
@@ -11,4 +11,4 @@ const Header = () => (
 </AppBar>
 );
 
-export default Header;
+export default HeaderLayout;

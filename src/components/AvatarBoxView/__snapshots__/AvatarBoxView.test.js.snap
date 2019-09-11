@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AvatarBoxView - general  should match Snapshot 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={1}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+  >
+    <Styled(MuiBox)>
+      <WithStyles(WithStyles(ForwardRef(Badge)))
+        anchorOrigin={
+          Object {
+            "horizontal": "right",
+            "vertical": "bottom",
+          }
+        }
+        invisible={false}
+        overlap="circle"
+        variant="dot"
+      >
+        <WithStyles(ForwardRef(Avatar))
+          alt="name"
+          src="url"
+        />
+      </WithStyles(WithStyles(ForwardRef(Badge)))>
+    </Styled(MuiBox)>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+  >
+    <WithStyles(ForwardRef(Typography))
+      variant="subtitle1"
+    >
+      name
+    </WithStyles(ForwardRef(Typography))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;
